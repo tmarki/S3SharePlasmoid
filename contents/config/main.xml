@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name="s3sharerc"/>
+  <include>kglobalsettings.h</include>
+  <group name="s3share">
+    <entry name="AWSKey" type="String">
+      <label>The AWS key.</label>
+    </entry>
+    <entry name="AWSSecret" type="String">
+      <label>The AWS Secret</label>
+    </entry>
+    <entry name="BucketName" type="String">
+      <label>Bucket name to drop to</label>
+    </entry>
+    <entry name="ExpireNum" type="Int">
+      <label>Expire number</label>
+    </entry>
+    <entry name="ExpireType" type="Int">
+      <label>Expire type</label>
+    </entry>
+  </group>
+</kcfg>

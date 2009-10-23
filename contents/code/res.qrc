@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="icon.png" >
+    <file>arrow-up-double.png</file>
+  </qresource>
+</RCC>
