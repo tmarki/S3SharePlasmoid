@@ -1,0 +1,40 @@
+S3 Share Plasmoid
+
+# Purpose
+
+This plasmoid can be used for easier file sharing through the Amazon Simple Storage Service or S3 for short. S3 is an offering which enables content providers to easily and cheaply store large amounts of data "on the cloud".
+
+# Usage
+
+Add this plasmoid to your desktop, and it will create a small drop target.
+
+You'll first need to configure the plugin with your Amazon Web Services (AWS) key and secret code, and the bucket name to use for the uploaded files.
+You can also set the expiry time of the URLs, it is set to 1 year by default.
+
+After giving a valid configuration you can drag and drop a file or several files onto this drop target - the plasmoid will upload the files, and return a list of HTTP URLs.
+Use this URLs to embed into your blog, send out as a link or post it on a social site.
+
+This plasmoid was written in Python.
+
+# Dependencies
+
+plasma-scriptengine-python, python-kde4, python-qt4, python-boto
+
+# Installation
+
+To install this plasmoid you need to use the command line tool. Navigate to the folder you downloaded the plasmoid to, and execute the following command:
+
+plasmapkg -i s3share_plasmoid.plasma
+
+Note that as of this writing the graphic plasmoid installer cannot install Python plasmoids.
+
+# Version history
+
+0.5 - 2009-10-24
+
+First working version.
+
+# Contact
+
+Tamas Marki <tmarki@gmail.com>
+

@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=S3SharePlasmoid
+Name=s3share_plasmoid
 Type=Service
 ServiceTypes=Plasma/Applet
 Icon=arrow-up-double
