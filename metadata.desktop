@@ -1,14 +1,14 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=s3share_plasmoid
+Name=S3 Share Plasmoid
 Type=Service
 ServiceTypes=Plasma/Applet
-Icon=arrow-up-double
+Icon=images/arrow-double-up.png
 X-Plasma-API=python
 X-Plasma-MainScript=code/main.py
 X-KDE-PluginInfo-Author=Tamas Marki
 X-KDE-PluginInfo-Email=tmarki+plasmoid@gmail.com
-X-KDE-PluginInfo-Name=S3SharePlasmoid
+X-KDE-PluginInfo-Name=s3share_plasmoid
 X-KDE-PluginInfo-Version=0.5
 X-KDE-PluginInfo-Website=http://tmarki.com/
 X-KDE-PluginInfo-Depends=Python-kde4, plasma-scriptengine-python
